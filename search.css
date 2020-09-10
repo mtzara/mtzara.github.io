@@ -1,9 +1,10 @@
-body {
+@media only screen and (max-width:380px) body {
   display: block;
   font-size: small;
   background: #fff;
   color: #222;
   font-family: arial,sans-serif;
+  margin: 8px;
 }
 
 div#searchbox {
@@ -30,4 +31,8 @@ div#viewport{
   height: 44px;
   margin: 0 auto;
   width: auto;
+}
+
+button:hover {
+  border: 1px solid #f2f2f2;
 }
