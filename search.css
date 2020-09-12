@@ -30,7 +30,8 @@ div#viewport{
   z-index: 3;
   height: 44px;
   margin: 0 auto;
-  width: auto;
+  width: 200px;
+  padding: 20px;
 }
 
 button:hover {
