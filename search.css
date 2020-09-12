@@ -37,3 +37,8 @@ div#viewport{
 button:hover {
   border: 1px solid #f2f2f2;
 }
+
+#hplogo {
+  padding-top:109px;
+  width: 272px;
+}
