@@ -5,7 +5,7 @@
   color: #222;
   font-family: arial,sans-serif;
   margin: 8px;
-}*/
+}
 
 div#searchbox {
   border-radius: 24px;
@@ -19,9 +19,9 @@ div#viewport{
   position: absolute;
   top: 0;
   width: 100%;
-}
+}*/
 
-.search{
+.jhp{
   background: #fff;
   display: flex;
   border: 1px solid #dfe1e5;
