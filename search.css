@@ -59,3 +59,16 @@ button:hover {
 #searchform {
   text-align: center;
 }
+
+.label {
+  float: left;
+  display: inline-block; 
+}
+
+#nav-top{
+  text-align: top;
+}
+
+#nav-right{
+  text-align: right;
+}
