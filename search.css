@@ -45,7 +45,6 @@ button:hover {
 }
 
 #gb {
-  overflow: hidden; 
   position: absolute; 
   top: 0px; 
   width: 328px; 
