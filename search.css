@@ -21,15 +21,15 @@ div#viewport{
   width: 100%;
 }*/
 
-.form{
+/*.form{
   background: #fff;
-  display: flex;
+  display: block;
   box-shadow: none;
   border-radius: 24px;
   z-index: 3;
   height: 44px;
-  margin: 0 auto;
   width: 200px;
+  margin: 0 auto;
   padding: 20px;
 }
 
@@ -37,35 +37,18 @@ button:hover {
   border: 1px solid #f2f2f2;
 }
 
-#hplogo {
-  padding-top:109px;
-  height: 92px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
 
-.label {
-  float: left;
-  display: inline-block; 
-}
 
-#nav-top{
-  text-align: top;
-}
-
-#nav-right{
-  float: right;
-}
-
-.searchbox{
-  border-radius: 24px;
-  border: 1px solid #dfe1e5;
-  width: 484px;
-  max-width: 484px;
-  height: 44px;
-  z-index: 3;
+.content{
   margin: 0 auto;
+  position: relative;
+  padding-top: 6px;
+  width:auto;
+  max-width: 484px;
+}*/
+
+.center{
+  text-align: center;
 }
 
 .button{
@@ -83,14 +66,65 @@ button:hover {
   text-align: center;
 }
 
-.content{
-  margin: 0 auto;
-  position: relative;
-  padding-top: 6px;
-  width:auto;
-  max-width: 484px;
+#nav-top{
+  text-align: top;
 }
 
-.center{
-  text-align:center;
+#nav-right{
+  float: right;
+  padding-right: 30px;
+}
+
+.label {
+  float: left;
+  display: inline-block; 
+}
+
+.RNNXgb {
+  padding-top: 109px;
+  height: 92px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#hplogo{
+  height: 92px;
+}
+
+#img-logo{
+  text-align: left !important;
+  height: 46px; 
+}
+
+.searchbox{
+  border-radius: 24px;
+  border: 1px solid #dfe1e5;
+  width: 484px;
+  max-width: 484px;
+  height: 44px;
+  z-index: 3;
+  margin: 0 auto;
+}
+
+.adv-search{
+  background-color: #357ae8;
+  border: 1px solid #2f5bb7;
+  color: #fff;
+  border-radius: 2px;
+  font-size: 11px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.adv-label{
+  color: #d93025;
+  margin-left: 10px;
+  font-size: 20px;
+  margin: 25px 35px;
+}
+
+#adv-top{
+  background-color: #f1f1f1;
+  line-height: 58px;
 }
