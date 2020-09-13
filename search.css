@@ -55,3 +55,7 @@ button:hover {
   margin-right: 27px; 
   transition: height 0.3s ease-in-out 0s;
 }
+
+#searchform {
+  text-align: center;
+}
