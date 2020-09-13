@@ -21,10 +21,9 @@ div#viewport{
   width: 100%;
 }*/
 
-.tsf nj{
+.form{
   background: #fff;
   display: flex;
-  border: 1px solid #dfe1e5;
   box-shadow: none;
   border-radius: 24px;
   z-index: 3;
@@ -41,26 +40,9 @@ button:hover {
 #hplogo {
   padding-top:109px;
   height: 92px;
-  width: auto;
   display: block;
   margin-left: auto;
   margin-right: auto;
-}
-
-#gb {
-  position: absolute; 
-  top: 0px; 
-  width: 328px; 
-  z-index: 991; 
-  height: 0px; 
-  margin-top: 40px; 
-  right: 0px; 
-  margin-right: 27px; 
-  transition: height 0.3s ease-in-out 0s;
-}
-
-#searchform {
-  text-align: center;
 }
 
 .label {
@@ -86,17 +68,29 @@ button:hover {
   margin: 0 auto;
 }
 
-.buttons {
-  margin: 11px 4px;
+.button{
+  background-color: #f2f2f2;
   color: #5F6368;
   border-radius: 4px;
   border: 1px solid #f2f2f2;
-  background-color: #f2f2f2;
-  font-family: arial,sans-serif;
   font-size: 14px;
   padding: 0 16px;
+  margin: 11px 4px;
+  font-family: arial,sans-serif;
   line-height: 27px;
   height: 36px;
   min-width: 54px;
   text-align: center;
+}
+
+.content{
+  margin: 0 auto;
+  position: relative;
+  padding-top: 6px;
+  width:auto;
+  max-width: 484px;
+}
+
+.center{
+  text-align:center;
 }
